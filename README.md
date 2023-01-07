@@ -47,7 +47,7 @@ Decrypted keystroke log file: <br/>
 <br />
 
 <p align="center">
-DecryptedComputer specs file: <br/>
+Decrypted Computer specs file: <br/>
 
 <img src="https://i.imgur.com/pFGrGKz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
