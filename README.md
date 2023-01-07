@@ -25,3 +25,30 @@ A separate decryption program is included to decrypt the encrypted files and all
 # Security
 It is important to use this application responsibly and only on devices that you own or have permission to monitor. Please use this application ethically and in compliance with all applicable laws.
 
+<p align="center">
+Encrypted keystroke log file: <br/>
+
+<img src="https://i.imgur.com/NJIqXYq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
+<p align="center">
+Encrypted Computer specs file: <br/>
+
+<img src="https://i.imgur.com/3VRPjmq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
+<p align="center">
+Decrypted keystroke log file: <br/>
+
+<img src="https://i.imgur.com/Of2WAHf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
+<p align="center">
+DecryptedComputer specs file: <br/>
+
+<img src="https://i.imgur.com/pFGrGKz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
