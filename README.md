@@ -14,8 +14,11 @@ A separate decryption program is included to decrypt the encrypted files and all
 
 # Features
 •	Tracks and logs all keystrokes.
+
 •	Collects information about the computer's specs, including the operating system, CPU.
+
 •	Encrypts both the keystroke log file and the computer specs file for added security.
+
 •	Decrypts the encrypted files with the provided decryption program.
 
 
